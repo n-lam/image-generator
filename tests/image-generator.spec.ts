@@ -6,6 +6,6 @@ test('image-generator', async ({ page }) => {
 
   for (const id of range) {
     await page.goto(`http://localhost:3000/${id}`);
-    await page.screenshot({path: `screenshots/customer${id}.png`, fullPage: true});
+    await page.screenshot({path: `screenshots/customer${id}.png`});
   }
 });
