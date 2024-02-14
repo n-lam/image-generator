@@ -3,7 +3,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Test image generation
 
 ```
+# Start server
 yarn build
 yarn start
+
+# Render with playwright
 time yarn playwright test
+
+# Test using vitest and SVG flattening
+yarn test:svg-flattening
 ```
