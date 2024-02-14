@@ -1,8 +1,8 @@
-"use client"
+"use client";
 import { useParams } from "next/navigation";
 
 export default function ImageGenerator() {
-  const {id} = useParams();
+  const { id } = useParams();
 
   const customerName = `customer${id}`;
   return (
@@ -14,7 +14,7 @@ export default function ImageGenerator() {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g id="customName" clip-path="url(#clip0_1_3)">
+        <g id="customName" clipPath="url(#clip0_1_3)">
           <g id="Group" filter="url(#filter0_d_1_3)">
             <g id="Clip path group">
               <mask
@@ -58,9 +58,9 @@ export default function ImageGenerator() {
                     fill="#525F7F"
                     xmlSpace="preserve"
                     style={{ whiteSpace: "pre" }}
-                    font-family="Inter"
-                    font-size="32"
-                    letter-spacing="0em"
+                    fontFamily="Inter"
+                    fontSize="32"
+                    letterSpacing="0em"
                   >
                     <tspan x="509.141" y="1428.28">
                       copy
@@ -151,7 +151,7 @@ export default function ImageGenerator() {
                                 d="M583.441 844.649C573.494 844.649 565.363 852.779 565.363 862.727C565.363 872.675 573.494 880.805 583.441 880.805C593.389 880.805 601.519 872.675 601.519 862.727C601.519 852.779 593.389 844.649 583.441 844.649Z"
                                 fill="#00B5B7"
                                 stroke="white"
-                                stroke-width="4"
+                                strokeWidth="4"
                               />
                             </g>
                           </g>
@@ -161,7 +161,7 @@ export default function ImageGenerator() {
                             id="Vector_15"
                             d="M671.551 728.094C671.551 728.094 677.064 726.299 677.577 728.735C678.089 731.171 675.269 733.35 677.192 734.76C679.115 736.171 682.705 732.709 684.371 735.914C686.038 739.119 681.038 741.94 684.243 743.094C687.448 744.247 690.91 741.683 691.935 745.273C692.961 748.863 691.679 751.17 691.679 751.17"
                             stroke="#008587"
-                            stroke-width="2"
+                            strokeWidth="2"
                           />
                         </g>
                         <g id="Group_8" opacity="0.850338">
@@ -190,7 +190,7 @@ export default function ImageGenerator() {
                             id="Vector_19"
                             d="M403 783.783V778.27L395.82 779.808L396.333 771.988L388.641 773.783L388.897 767.501L382.615 769.808L383.513 764.296L378 765.449"
                             stroke="#2F80ED"
-                            stroke-width="5"
+                            strokeWidth="5"
                           />
                         </g>
                         <g id="Group_12" opacity="0.722388">
@@ -261,7 +261,7 @@ export default function ImageGenerator() {
                             id="Vector_29"
                             d="M635.435 935.188C635.435 935.188 640.948 933.393 641.46 935.829C641.973 938.265 639.153 940.445 641.076 941.855C642.999 943.265 646.589 939.804 648.255 943.009C649.922 946.214 644.922 949.034 648.127 950.188C651.332 951.342 654.794 948.778 655.819 952.368C656.845 955.957 655.563 958.265 655.563 958.265"
                             stroke="#008587"
-                            stroke-width="2"
+                            strokeWidth="2"
                           />
                         </g>
                         <g id="Group_22" opacity="0.722388">
@@ -279,10 +279,10 @@ export default function ImageGenerator() {
                     fill="#00B5B7"
                     xmlSpace="preserve"
                     style={{ whiteSpace: "pre" }}
-                    font-family="Inter"
-                    font-size="88"
-                    font-weight="bold"
-                    letter-spacing="0em"
+                    fontFamily="Inter"
+                    fontSize="88"
+                    fontWeight="bold"
+                    letterSpacing="0em"
                   >
                     <tspan x="65" y="1162.5">
                       {customerName}
@@ -293,9 +293,9 @@ export default function ImageGenerator() {
                     fill="#212529"
                     xmlSpace="preserve"
                     style={{ whiteSpace: "pre" }}
-                    font-family="Inter"
-                    font-size="40"
-                    letter-spacing="0em"
+                    fontFamily="Inter"
+                    fontSize="40"
+                    letterSpacing="0em"
                   >
                     <tspan x="503.801" y="1263.1">
                       copy
@@ -306,10 +306,10 @@ export default function ImageGenerator() {
                     fill="white"
                     xmlSpace="preserve"
                     style={{ whiteSpace: "pre" }}
-                    font-family="Inter"
-                    font-size="32"
-                    font-weight="bold"
-                    letter-spacing="0em"
+                    fontFamily="Inter"
+                    fontSize="32"
+                    fontWeight="bold"
+                    letterSpacing="0em"
                   >
                     <tspan x="511.118" y="1603.28">
                       copy
@@ -329,9 +329,9 @@ export default function ImageGenerator() {
             width="1100"
             height="2326"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -364,9 +364,9 @@ export default function ImageGenerator() {
             width="978"
             height="468"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -398,9 +398,9 @@ export default function ImageGenerator() {
             width="252.666"
             height="252.666"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -433,8 +433,8 @@ export default function ImageGenerator() {
             y2="489.249"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#5DE8E9" />
-            <stop offset="1" stop-color="#00AFB7" />
+            <stop stopColor="#5DE8E9" />
+            <stop offset="1" stopColor="#00AFB7" />
           </linearGradient>
           <clipPath id="clip0_1_3">
             <rect width="1100" height="2326" fill="white" />
